@@ -13,13 +13,19 @@
 
   .us-section img {
     width: 200px;
+    border-radius: 50px;
+    border: solid 5px black;
   }
 
-  .us-section {
+  .us-section {GTI
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: stretch;
 	align-content: center;
+}
+
+.julia-img .steph-img {
+
 }
