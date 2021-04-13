@@ -17,15 +17,11 @@
     border: solid 5px black;
   }
 
-  .us-section {GTI
+  .us-section {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-evenly;
 	align-items: stretch;
 	align-content: center;
-}
-
-.julia-img .steph-img {
-
 }
