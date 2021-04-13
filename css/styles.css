@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+:root{
+  --img-width:200px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700'); */
 
   body {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
 }
 
   h1 {
@@ -20,17 +25,19 @@
 }
 
 .about-link {
+    width:var(--img-width);
     text-decoration: none;
     color:linear-gradient(to right, #78ffd6, #007991);
     border: solid 2px purple;
-    padding: 5px 50px;
+    text-align: center;
     border-radius: 10px;
-    font-weight: 800;
+    font-weight: 600;
+
 }
 
 
   .us-section img {
-    width: 200px;
+    width: var(--img-width);
     border-radius: 50px;
     border: solid 1px white;
   }
