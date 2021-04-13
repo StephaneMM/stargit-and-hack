@@ -21,9 +21,11 @@
 
 .about-link {
     text-decoration: none;
-    color: black;
-    border: solid 1px purple;
-    padding: 5px;
+    color:linear-gradient(to right, #78ffd6, #007991);
+    border: solid 2px purple;
+    padding: 5px 50px;
+    border-radius: 10px;
+    font-weight: 800;
 }
 
 
